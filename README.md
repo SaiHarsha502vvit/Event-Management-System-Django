@@ -12,7 +12,7 @@
 
 ## Django admin-panel credentials
 
-- Username: `nsec-vat-django`
-- Email: `nsec-vat-django@nsec.ac.in`
-- Password: `nsec-vat-django`
+- Username: `testing    `
+- Email: `testing@gmail.com`
+- Password: `test@1234`
 
