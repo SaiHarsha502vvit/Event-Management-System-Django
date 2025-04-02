@@ -1,4 +1,33 @@
-# event-management-platform
+# Event-management-platform
+
+## How to Start the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/event-management-platform.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd event-management-platform
+   ```
+3. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+4. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. Apply database migrations:
+   ```bash
+   python manage.py migrate
+   ```
+6. Start the development server:
+   ```bash
+   python manage.py runserver
+   ```
+7. Open your browser and go to `http://127.0.0.1:8000/`.
 
 ## References
 
@@ -15,4 +44,3 @@
 - Username: `testing    `
 - Email: `testing@gmail.com`
 - Password: `test@1234`
-
